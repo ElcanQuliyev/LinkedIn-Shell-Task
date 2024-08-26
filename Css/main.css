@@ -8,6 +8,7 @@ body {
     background-color: #F5F2ED;
 }
 
+/* Header Start */
 header {
     background-color: white;
 }
@@ -93,3 +94,142 @@ img.border {
 div.bar {
     border: 1px solid lightgray;
 }
+
+/* Header End */
+
+/* Content Start */
+div.content {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 24px;
+    align-items: center;
+}
+
+div.twoarea {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+div.leftcontent {
+    background-color: white;
+    width: 270px;
+    border-radius: 8px;
+}
+
+div.padding {
+    padding: 16px;
+}
+
+img.radius {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+p.black {
+    color: black;
+    font-weight: 700;
+}
+
+p.gray {
+    color: gray;
+    text-align: center;
+}
+
+div.grid {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 16px;
+    padding: 8px;
+}
+
+p.parag {
+    color: gray;
+}
+
+span.blue {
+    color: #288dcc;
+    font-weight: 700;
+}
+
+div.colum {
+    padding: 8px;
+}
+
+div.row {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 8px;
+}
+
+div.recent {
+    background-color: white;
+    width: 270px;
+    border-radius: 8px;
+}
+
+div.link {
+    padding: 8px;
+}
+
+div.rowlink {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    padding: 4px;
+}
+
+div.rowlink1 {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    align-items: center;
+    padding: 4px;
+}
+
+span.icon {
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+span.icon:hover {
+    color: black;
+}
+
+div.groups {
+    margin-top: 32px;
+}
+
+p.blue {
+    color: #288dcc;
+    font-weight: 700;
+}
+
+p.link{
+    color: gray;
+    padding: 8px;
+}
+
+p.link:hover{
+    color: black;
+}
+
+div.events{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.centercontent {}
+
+div.rigthcontent {}
+
+/* Content End */
