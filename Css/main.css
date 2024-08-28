@@ -33,8 +33,9 @@ img {
     border-radius: 4px;
 }
 
-input {
+input.padding {
     padding: 5px;
+    padding-left: 30px;
 }
 
 div.position {
@@ -42,8 +43,8 @@ div.position {
     gap: 4px;
     align-items: center;
     position: absolute;
-    top: 10%;
-    left: 25%;
+    top: 20%;
+    left: 23%;
 }
 
 i.black {
@@ -53,10 +54,6 @@ i.black {
 
 p.margin {
     margin: 0px;
-}
-
-p.opacity {
-    opacity: 0.5;
 }
 
 div.navright {
@@ -357,7 +354,7 @@ img.width {
     border-radius: 0px;
 }
 
-div.padding{
+div.padding {
     padding: 16px;
 }
 
@@ -367,17 +364,50 @@ span.right {
     justify-content: right;
 }
 
-div.barp{
+div.barp {
     border: 1px solid lightgray;
     width: 100%;
     margin-top: 8px;
 }
 
-div.flex2{
+div.flex2 {
     display: flex;
     gap: 8px;
 }
 
-div.rigthcontent {}
+div.rightcontent {
+    width: 360px;
+    background-color: white;
+    border-radius: 8px;
+    height: 400px;
+}
+
+div.paddingcontent {
+    padding: 16px;
+}
+
+div.banks {
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+div.bankabout{}
+
+div.pad{
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 24px;
+    width: 110px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+p.t{
+    margin-top: 16px;
+}
 
 /* Content End */
