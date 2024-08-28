@@ -103,7 +103,6 @@ div.content {
     justify-content: center;
     gap: 24px;
     margin-top: 24px;
-    align-items: center;
 }
 
 div.twoarea {
@@ -213,22 +212,171 @@ p.blue {
     font-weight: 700;
 }
 
-p.link{
+p.link {
     color: gray;
     padding: 8px;
 }
 
-p.link:hover{
+p.link:hover {
     color: black;
 }
 
-div.events{
+div.events {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 div.centercontent {}
+
+div.form {
+    width: 540px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+div.acsess {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px;
+}
+
+input.radius {
+    border-radius: 24px;
+    padding: 8px;
+}
+
+div.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    padding: 8px;
+}
+
+div.media {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+i.blue {
+    color: #288dcc;
+}
+
+i.violet {
+    color: violet;
+}
+
+i.orange {
+    color: orange;
+}
+
+div.sort {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+div.bartip {
+    width: 75%;
+    color: gray;
+    border: 1px solid gray;
+}
+
+div.suggested {
+    width: 540px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+div.suggestcontent {
+    padding: 16px;
+}
+
+div.flexicon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.barm {
+    border: 1px solid gray;
+    margin-top: 16px;
+}
+
+div.nasser {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+div.flexleft {
+    display: flex;
+    gap: 8px;
+}
+
+div.about {}
+
+img.bigradius {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+span.gray {
+    color: gray;
+}
+
+span.world {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+div.flexright {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+p.top {
+    margin-top: 8px;
+}
+
+i.pink {
+    color: rgb(255, 78, 108);
+}
+
+img.width {
+    width: 540px;
+    height: auto;
+    border-radius: 0px;
+}
+
+div.padding{
+    padding: 16px;
+}
+
+span.right {
+    color: gray;
+    display: flex;
+    justify-content: right;
+}
+
+div.barp{
+    border: 1px solid lightgray;
+    width: 100%;
+    margin-top: 8px;
+}
+
+div.flex2{
+    display: flex;
+    gap: 8px;
+}
 
 div.rigthcontent {}
 
